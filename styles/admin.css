@@ -1,0 +1,22 @@
+nav {
+    display: block;
+}
+
+body {
+    background-image:url(../images/bikiniBottom3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.studentAchievement {
+    border: 1em black;
+}
+
+.studentAchievement img {
+    border-radius: 50px;
+    height: 100px;
+}
+
+ul {
+    list-style-type: none;
+}
