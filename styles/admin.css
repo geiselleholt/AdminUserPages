@@ -1,6 +1,6 @@
-nav {
+/* nav {
   display: block;
-}
+} */
 
 body {
   background-image: url(../images/bikiniBottom3.png);
@@ -8,9 +8,9 @@ body {
   background-size: cover;
 }
 
-.studentAchievement {
-  border: 1em black;
-}
+/* .studentAchievement {
+  flex-grow: 10%;
+} */
 
 .studentAchievement img {
   border-radius: 50px;
@@ -24,20 +24,52 @@ ul {
 .main {
   display: flex;
   justify-content: space-between;
-  margin: 10px;
+  margin: 20px 0px;
+}
+
+.upper,
+.lower {
+  display: flex;
+  margin: auto;
+  /* justify-content: space-between; */
+  /* flex-grow: 90%; */
 }
 
 .progressBar {
   width: 400px;
   height: 210px;
   background-color: white;
+  margin: 0px 20px;
 }
 
 .card {
-margin: 10px;
+  margin: 10px;
+  text-align: center;
 }
 
 .progress {
   margin: 1rem;
   border: solid black;
+}
+
+.page-header {
+  background-color: rgba(144, 238, 144, 0.783);
+}
+
+.toDo {
+  background-color: black;
+  font-size: x-large;
+  font-weight: bolder;
+  color: aqua;
+}
+
+.dates {
+  background-color: black;
+  color: aqua;
+  margin: 0px 20px;
+  padding: 20px;
+}
+
+.message {
+    margin:0px 20px;
 }
