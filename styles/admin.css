@@ -1,22 +1,43 @@
 nav {
-    display: block;
+  display: block;
 }
 
 body {
-    background-image:url(../images/bikiniBottom3.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image: url(../images/bikiniBottom3.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .studentAchievement {
-    border: 1em black;
+  border: 1em black;
 }
 
 .studentAchievement img {
-    border-radius: 50px;
-    height: 100px;
+  border-radius: 50px;
+  height: 100px;
 }
 
 ul {
-    list-style-type: none;
+  list-style-type: none;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.progressBar {
+  width: 400px;
+  height: 210px;
+  background-color: white;
+}
+
+.card {
+margin: 10px;
+}
+
+.progress {
+  margin: 1rem;
+  border: solid black;
 }
